@@ -1,0 +1,268 @@
+/* RESET CSS */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    /* 100% significa que vai ser o mesmo tamanho pra cada elemento de texto */
+    font-family:"Open Sans", sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    
+}
+img{
+     max-width: 100%;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color: #333;
+}
+p{
+    font-size: 1em;
+    color: #777;
+}
+/* Cabeçalho */
+.cabecalho{
+    width: 100%;
+    float: left;   
+    padding:50px 8%;
+    background-color:#13c7ae;
+    
+}
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    font-size: 0;
+    background: url(../img/Noodle.png);
+}
+.cabecalho form{
+width: 30%;
+float: right;
+}
+.cabecalho form input[type="search"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px 0 0 15px;
+}
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+.menu {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+margin-right: 25px;
+font-size: 19px;
+color: bisque;
+}
+.menu li a:hover{
+    color: #fff;
+}
+.redes{
+    float: right;
+}
+
+ /* SOCIAL-ICONS */
+.social-icons{
+    float: right;
+}
+
+.social-icons a{
+    color: #ffffff;
+    float:left;
+    margin-left: 13px;
+}
+
+.btn-facebook:hover {  
+     color: #3b5998; } 
+.btn-google:hover { 
+      color: #d73d32; } 
+.btn-insta:hover { 
+      color: #C13584; }
+
+
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+.sobre{
+    width:70%;
+    float:left;
+    padding:0 20px 20px 0;
+}
+.sobre h2{
+    margin-bottom: 15px;
+}   
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+margin: 0 15px 15px 0;
+}
+.sobre p{
+    text-align: justify;
+}
+/* SIDEBAR */
+.onde-estamos{
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+}
+.onde-estamos h2{
+    margin-bottom: 7px;
+}
+.onde-estamos p{
+    color: #111;
+}
+.onde-estamos iframe{
+    width: 100%;
+    height: 250px;
+    margin:20px 0px ;
+    /* 20px pra cima, 0 para direita, 20 para baixo, 0 para esquerda */
+}
+.onde-estamos li{
+    color:#777;
+    margin-bottom: 10px;
+}
+.onde-estamos i{
+    margin-right: 6px;
+}
+/* NEWSletter */
+.newsLetter{
+    width:100% ;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+.newsLetter h3{
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+.newLetter p{
+    font-size: 1.2em;
+    color: #fff;
+}
+.newsLetter form{
+    width: 100%;
+    float:left;
+    margin-top: 12px;
+}
+.newsLetter form input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    /* borda normal acrescentada */
+    border-radius: 7px;
+    /* arredonda as bordas */
+    color: #fff;
+    background-color: initial;
+    float: left;
+}
+.newsLetter button{
+    width: 18%;
+    float: right;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius:7px;
+    float: right;
+    cursor: pointer;
+    /* quando vc passa vira uma mãozinha */
+}
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #13c7ae;
+    padding: 20px 8%;
+}
+.rodape p{
+    color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produtosgerais {
+    padding: 20px 7%;
+    float: left;
+}
+.titulopage{ 
+    font-weight: bold;
+    color: black;
+}
+.imgproduto{
+    width: 350px;
+    height: 220px;
+
+}
+.tituloobjeto{
+    font-weight: bold;
+    font-size: 20px;
+    color: crimson;
+}
+.descricaoproduto{
+    text-align: justify;
+    font-size: large;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    float: center left;
+}
+.precos{
+    font-size: medium;
+    font-weight: bold;
+    float: left;
+    padding: 10px 50%;
+    color: rgb(3, 144, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
